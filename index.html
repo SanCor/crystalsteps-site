@@ -1,25 +1,94 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crystal Steps - App in arrivo</title>
+    <title>CrystalSteps Studio | MonuMente</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; color: #333; }
-        h1 { color: #00a1ff; }
-        .content { max-width: 600px; margin: 0 auto; }
-        footer { margin-top: 50px; font-size: 0.8em; }
-        a { color: #00a1ff; text-decoration: none; }
+        /* Sfondo sfumato e stile moderno */
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #00a1ff 0%, #0052cc 100%);
+            color: white;
+            text-align: center;
+        }
+        .content { 
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            max-width: 500px; 
+            margin: 20px;
+        }
+        h1 { 
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        h2 {
+            font-weight: 300;
+            font-size: 1.5em;
+            color: #e0f2ff;
+            margin-bottom: 30px;
+        }
+        p { 
+            font-size: 1.1em;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        .badge {
+            background: #ffffff;
+            color: #0052cc;
+            padding: 5px 15px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        footer { 
+            margin-top: 30px; 
+            font-size: 0.85em; 
+            opacity: 0.7;
+        }
+        footer a { 
+            color: white; 
+            text-decoration: underline; 
+            font-weight: bold;
+        }
+        /* Una piccola animazione */
+        .content {
+            animation: fadeIn 1.2s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
+
     <div class="content">
-        <h1>Crystal Steps</h1>
-        <p>Stiamo lavorando per portare la nostra app su Google Play Store.</p>
-        <p>Rimanete sintonizzati!</p>
+        <div class="badge">COMING SOON</div>
+        <h1>MonuMente</h1>
+        <h2>by CrystalSteps Studio</h2>
+        
+        <p>We are currently working hard to bring <strong>MonuMente</strong> to the Google Play Store.</p>
+        <p>Explore monuments and museums around you like never before. Stay tuned!</p>
     </div>
+
     <footer>
-        <p>&copy; 2024 Crystal Steps | <a href="privacy.html">Privacy Policy</a></p>
+        <p>&copy; 2025 CrystalSteps Studio | <a href="privacy.html">Privacy Policy</a></p>
+        <p>Contact: <a href="mailto:info@crystalsteps.net">info@crystalsteps.net</a></p>
     </footer>
+
 </body>
 </html>
