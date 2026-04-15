@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clariguiz - La tua spesa consapevole</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #10b981; /* Verde Emerald */
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --text-gray: #6b7280;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        nav {
+            padding: 1.5rem 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .lang-switch button {
+            background: none;
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .lang-switch button:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Hero Section */
+        header {
+            padding: 5rem 10%;
+            text-align: center;
+            background: linear-gradient(180deg, white 0%, var(--light) 100%);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark);
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-gray);
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        .cta-button {
+            background: var(--primary);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
+        }
+
+        /* Features */
+        .features {
+            padding: 5rem 10%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            text-align: center;
+        }
+
+        .card h3 {
+            margin: 1.5rem 0 1rem;
+            color: var(--dark);
+        }
+
+        .card p {
+            color: var(--text-gray);
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 10%;
+            background: white;
+            text-align: center;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .footer-links {
+            margin-top: 2rem;
+        }
+
+        .footer-links a {
+            color: var(--text-gray);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            header { padding: 3rem 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Clariguiz</div>
+        <div class="lang-switch">
+            <button onclick="switchLang()">EN / IT</button>
+        </div>
+    </nav>
+
+    <header>
+        <h1 id="hero-title">Fai la spesa con consapevolezza</h1>
+        <p id="hero-subtitle" class="subtitle">Scansiona i prodotti, scopri i valori nutrizionali e scegli il meglio per la tua salute con Clariguiz.</p>
+        <a href="#" class="cta-button" id="cta-text">Scarica la Beta</a>
+    </header>
+
+    <section class="features">
+        <div class="card">
+            <h3>🔍</h3>
+            <h3 id="f1-title">Scanner Smart</h3>
+            <p id="f1-desc">Punta il codice a barre e ottieni risultati istantanei sui prodotti.</p>
+        </div>
+        <div class="card">
+            <h3>🍏</h3>
+            <h3 id="f2-title">Nutri-Score</h3>
+            <p id="f2-desc">Valutazioni semplici da A ad E per capire immediatamente
