@@ -1,0 +1,345 @@
+{
+  "email": "info@crystalsteps.net",
+  "stores": {
+    "clariguiz": {
+      "play": "https://play.google.com/store/apps/details?id=com.clariguiz.app",
+      "apple": "https://apps.apple.com/app/clariguiz/id6761573886"
+    },
+    "monumente": {
+      "play": "https://play.google.com/store/apps/details?id=com.crystalsteps.monumente",
+      "apple": "https://apps.apple.com/app/monumente/id6757924933"
+    }
+  },
+  "languages": {
+    "en": {
+      "label": "EN",
+      "dir": "",
+      "locale": "en_US"
+    },
+    "it": {
+      "label": "IT",
+      "dir": "it",
+      "locale": "it_IT"
+    },
+    "fr": {
+      "label": "FR",
+      "dir": "fr",
+      "locale": "fr_FR"
+    },
+    "es": {
+      "label": "ES",
+      "dir": "es",
+      "locale": "es_ES"
+    }
+  },
+  "copy": {
+    "en": {
+      "ui": {
+        "langLabel": "Language",
+        "legalNote": "",
+        "notFoundTitle": "Page not found",
+        "notFoundBody": "This page is not part of the CrystalSteps Studio site.",
+        "skip": "Skip to content",
+        "privacyClariguizTitle": "Privacy policy — Clariguiz",
+        "privacyMonumenteTitle": "Privacy policy — Monumente",
+        "privacyClariguizDescription": "Privacy policy for the Clariguiz app by CrystalSteps Studio.",
+        "privacyMonumenteDescription": "Privacy policy and terms for the Monumente app by CrystalSteps Studio.",
+        "iconAlt": "{app} icon",
+        "screenAlt": "Screenshot of {app} from the App Store"
+      },
+      "home": {
+        "title": "CrystalSteps Studio — Useful mobile apps",
+        "description": "CrystalSteps builds free, practical apps for everyday life — from mindful shopping with Clariguiz to exploring monuments with Monumente.",
+        "heroTitle": "CrystalSteps Studio",
+        "heroSubtitle": "Useful apps for everyday life.",
+        "heroBody": "We design simple, privacy-minded mobile apps that help you shop smarter and explore the world around you.",
+        "section": "Our apps",
+        "clariguizCard": "Scan food, beauty and pet products. Get a clear 0–100 score from Nutri-Score, NOVA, MUM and SIGA.",
+        "clariguizCta": "Discover Clariguiz",
+        "monumenteCard": "Explore monuments, museums and points of interest near you, in real time.",
+        "monumenteCta": "Discover Monumente",
+        "privacyWord": "Privacy",
+        "contactLabel": "Contact:"
+      },
+      "clariguiz": {
+        "title": "Clariguiz — Food, beauty & pet scanner",
+        "description": "Scan barcodes and get a 0–100 score based on Nutri-Score, NOVA, MUM and SIGA. Free, no account. Food, beauty and pet food.",
+        "heroTitle": "Clariguiz",
+        "heroSubtitle": "Shop with more clarity.",
+        "heroBody": "Scan a barcode and get a 0–100 score from several systems together — Nutri-Score, NOVA, MUM and SIGA — so you see nutritional quality and processing level, not just a single grade.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "What it does",
+        "what": [
+          "Food: ingredients, additives, ultra-processed foods and overall quality",
+          "Beauty & personal care: INCI analysis",
+          "Pet food: dedicated scoring for your animals",
+          "Profiles: Balanced, Diabetic, Sports, Clean"
+        ],
+        "whyTitle": "Why Clariguiz",
+        "why": [
+          "Interpolated score — more reliable than one indicator alone",
+          "Detects ultra-processed products",
+          "Pet food included",
+          "Free, no account, no personal data collected",
+          "Data from Open Food / Beauty / Product Facts"
+        ],
+        "privacyLabel": "Privacy policy"
+      },
+      "monumente": {
+        "title": "Monumente — Discover monuments & museums nearby",
+        "description": "Explore monuments, museums and historical points of interest around you. Your multilingual cultural guide. Free.",
+        "heroTitle": "Monumente",
+        "heroSubtitle": "Discover what’s around you.",
+        "heroBody": "Turn your phone into a cultural companion: find monuments, museums and points of interest in your surroundings in real time.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "What it does",
+        "what": [
+          "Nearby monuments, museums and points of interest",
+          "Real-time discovery while you walk",
+          "Built for curious travelers, art lovers and history fans",
+          "Multilingual cultural guide"
+        ],
+        "whyTitle": "Why Monumente",
+        "why": [
+          "Instant context for the places you pass",
+          "Simple and free to use",
+          "Made by CrystalSteps Studio"
+        ],
+        "privacyLabel": "Privacy policy"
+      }
+    },
+    "it": {
+      "ui": {
+        "langLabel": "Lingua",
+        "legalNote": "Il testo legale qui sotto è in inglese.",
+        "notFoundTitle": "Pagina non trovata",
+        "notFoundBody": "Questa pagina non fa parte del sito CrystalSteps Studio.",
+        "skip": "Vai al contenuto",
+        "privacyClariguizTitle": "Informativa privacy — Clariguiz",
+        "privacyMonumenteTitle": "Informativa privacy — Monumente",
+        "privacyClariguizDescription": "Informativa privacy dell’app Clariguiz di CrystalSteps Studio.",
+        "privacyMonumenteDescription": "Informativa privacy e termini dell’app Monumente di CrystalSteps Studio.",
+        "iconAlt": "Icona di {app}",
+        "screenAlt": "Schermata di {app} dall’App Store"
+      },
+      "home": {
+        "title": "CrystalSteps Studio — App utili per tutti i giorni",
+        "description": "CrystalSteps crea app gratuite e pratiche — dalla spesa consapevole con Clariguiz all’esplorazione di monumenti con Monumente.",
+        "heroTitle": "CrystalSteps Studio",
+        "heroSubtitle": "App utili per tutti i giorni.",
+        "heroBody": "Progettiamo app mobili semplici e attente alla privacy, per fare la spesa con più chiarezza e scoprire cosa c’è intorno a te.",
+        "section": "Le nostre app",
+        "clariguizCard": "Scansiona cibo, beauty e pet. Punteggio 0–100 da Nutri-Score, NOVA, MUM e SIGA.",
+        "clariguizCta": "Scopri Clariguiz",
+        "monumenteCard": "Esplora monumenti, musei e punti di interesse vicino a te, in tempo reale.",
+        "monumenteCta": "Scopri Monumente",
+        "privacyWord": "Privacy",
+        "contactLabel": "Contatti:"
+      },
+      "clariguiz": {
+        "title": "Clariguiz — Scanner cibo, beauty e pet",
+        "description": "Scansiona i codici a barre e ottieni un punteggio 0–100 da Nutri-Score, NOVA, MUM e SIGA. Gratis, senza account. Cibo, beauty e pet food.",
+        "heroTitle": "Clariguiz",
+        "heroSubtitle": "Fai la spesa con più chiarezza.",
+        "heroBody": "Scansiona un codice a barre e ricevi un punteggio 0–100 basato su più sistemi insieme — Nutri-Score, NOVA, MUM e SIGA — così vedi qualità nutrizionale e livello di trasformazione, non solo un voto singolo.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "Cosa fa",
+        "what": [
+          "Cibo: ingredienti, additivi, ultraprocessati e qualità complessiva",
+          "Beauty e igiene: analisi INCI",
+          "Pet food: punteggio dedicato per i tuoi animali",
+          "Profili: Bilanciato, Diabetico, Sportivo, Clean"
+        ],
+        "whyTitle": "Perché Clariguiz",
+        "why": [
+          "Score interpolato — più affidabile di un solo indicatore",
+          "Rileva i prodotti ultraprocessati",
+          "Pet food incluso",
+          "Gratis, senza account, nessun dato personale raccolto",
+          "Dati da Open Food / Beauty / Product Facts"
+        ],
+        "privacyLabel": "Informativa privacy"
+      },
+      "monumente": {
+        "title": "Monumente — Monumenti e musei vicino a te",
+        "description": "Esplora monumenti, musei e punti di interesse storici intorno a te. Guida culturale multilingue. Gratis.",
+        "heroTitle": "Monumente",
+        "heroSubtitle": "Scopri cosa c’è intorno a te.",
+        "heroBody": "Trasforma il telefono in un compagno culturale: trova monumenti, musei e punti di interesse nei dintorni in tempo reale.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "Cosa fa",
+        "what": [
+          "Monumenti, musei e punti di interesse vicini",
+          "Scoperta in tempo reale mentre cammini",
+          "Pensata per viaggiatori curiosi, amanti dell’arte e della storia",
+          "Guida culturale multilingue"
+        ],
+        "whyTitle": "Perché Monumente",
+        "why": [
+          "Contesto immediato sui luoghi che incontri",
+          "Semplice e gratuita",
+          "Realizzata da CrystalSteps Studio"
+        ],
+        "privacyLabel": "Informativa privacy"
+      }
+    },
+    "fr": {
+      "ui": {
+        "langLabel": "Langue",
+        "legalNote": "Le texte juridique ci-dessous est en anglais.",
+        "notFoundTitle": "Page introuvable",
+        "notFoundBody": "Cette page ne fait pas partie du site CrystalSteps Studio.",
+        "skip": "Aller au contenu",
+        "privacyClariguizTitle": "Politique de confidentialité — Clariguiz",
+        "privacyMonumenteTitle": "Politique de confidentialité — Monumente",
+        "privacyClariguizDescription": "Politique de confidentialité de l’app Clariguiz par CrystalSteps Studio.",
+        "privacyMonumenteDescription": "Politique de confidentialité et conditions de l’app Monumente par CrystalSteps Studio.",
+        "iconAlt": "Icône {app}",
+        "screenAlt": "Capture d’écran de {app} sur l’App Store"
+      },
+      "home": {
+        "title": "CrystalSteps Studio — Des apps utiles au quotidien",
+        "description": "CrystalSteps crée des apps gratuites et pratiques — des courses éclairées avec Clariguiz à l’exploration des monuments avec Monumente.",
+        "heroTitle": "CrystalSteps Studio",
+        "heroSubtitle": "Des apps utiles au quotidien.",
+        "heroBody": "Nous concevons des apps mobiles simples et respectueuses de la vie privée, pour mieux faire vos courses et explorer le monde autour de vous.",
+        "section": "Nos apps",
+        "clariguizCard": "Scannez alimentation, beauté et pet. Score 0–100 à partir de Nutri-Score, NOVA, MUM et SIGA.",
+        "clariguizCta": "Découvrir Clariguiz",
+        "monumenteCard": "Explorez monuments, musées et points d’intérêt près de vous, en temps réel.",
+        "monumenteCta": "Découvrir Monumente",
+        "privacyWord": "Confidentialité",
+        "contactLabel": "Contact :"
+      },
+      "clariguiz": {
+        "title": "Clariguiz — Scanner alim., beauté et pet",
+        "description": "Scannez les codes-barres et obtenez un score 0–100 basé sur Nutri-Score, NOVA, MUM et SIGA. Gratuit, sans compte. Alimentation, beauté et pet food.",
+        "heroTitle": "Clariguiz",
+        "heroSubtitle": "Faites vos courses avec plus de clarté.",
+        "heroBody": "Scannez un code-barres et obtenez un score 0–100 issu de plusieurs systèmes — Nutri-Score, NOVA, MUM et SIGA — pour voir la qualité nutritionnelle et le niveau de transformation, pas seulement une note unique.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "Ce que fait l’app",
+        "what": [
+          "Alimentation : ingrédients, additifs, ultraprocessés et qualité globale",
+          "Beauté & hygiène : analyse INCI",
+          "Pet food : score dédié pour vos animaux",
+          "Profils : Équilibré, Diabétique, Sportif, Clean"
+        ],
+        "whyTitle": "Pourquoi Clariguiz",
+        "why": [
+          "Score interpolé — plus fiable qu’un seul indicateur",
+          "Détecte les produits ultraprocessés",
+          "Pet food inclus",
+          "Gratuit, sans compte, aucune donnée personnelle collectée",
+          "Données Open Food / Beauty / Product Facts"
+        ],
+        "privacyLabel": "Politique de confidentialité"
+      },
+      "monumente": {
+        "title": "Monumente — Monuments et musées près de vous",
+        "description": "Explorez monuments, musées et points d’intérêt historiques autour de vous. Guide culturel multilingue. Gratuit.",
+        "heroTitle": "Monumente",
+        "heroSubtitle": "Découvrez ce qui vous entoure.",
+        "heroBody": "Transformez votre téléphone en compagnon culturel : trouvez monuments, musées et points d’intérêt autour de vous en temps réel.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "Ce que fait l’app",
+        "what": [
+          "Monuments, musées et points d’intérêt à proximité",
+          "Découverte en temps réel pendant que vous marchez",
+          "Pour voyageurs curieux, amateurs d’art et d’histoire",
+          "Guide culturel multilingue"
+        ],
+        "whyTitle": "Pourquoi Monumente",
+        "why": [
+          "Le contexte immédiat des lieux que vous croisez",
+          "Simple et gratuit",
+          "Créé par CrystalSteps Studio"
+        ],
+        "privacyLabel": "Politique de confidentialité"
+      }
+    },
+    "es": {
+      "ui": {
+        "langLabel": "Idioma",
+        "legalNote": "El texto legal a continuación está en inglés.",
+        "notFoundTitle": "Página no encontrada",
+        "notFoundBody": "Esta página no forma parte del sitio de CrystalSteps Studio.",
+        "skip": "Saltar al contenido",
+        "privacyClariguizTitle": "Política de privacidad — Clariguiz",
+        "privacyMonumenteTitle": "Política de privacidad — Monumente",
+        "privacyClariguizDescription": "Política de privacidad de la app Clariguiz de CrystalSteps Studio.",
+        "privacyMonumenteDescription": "Política de privacidad y términos de la app Monumente de CrystalSteps Studio.",
+        "iconAlt": "Icono de {app}",
+        "screenAlt": "Captura de {app} en el App Store"
+      },
+      "home": {
+        "title": "CrystalSteps Studio — Apps útiles para el día a día",
+        "description": "CrystalSteps crea apps gratuitas y prácticas — desde la compra consciente con Clariguiz hasta explorar monumentos con Monumente.",
+        "heroTitle": "CrystalSteps Studio",
+        "heroSubtitle": "Apps útiles para el día a día.",
+        "heroBody": "Diseñamos apps móviles simples y respetuosas con la privacidad, para comprar con más claridad y descubrir lo que hay a tu alrededor.",
+        "section": "Nuestras apps",
+        "clariguizCard": "Escanea comida, beauty y pet. Puntuación 0–100 con Nutri-Score, NOVA, MUM y SIGA.",
+        "clariguizCta": "Descubre Clariguiz",
+        "monumenteCard": "Explora monumentos, museos y puntos de interés cerca de ti, en tiempo real.",
+        "monumenteCta": "Descubre Monumente",
+        "privacyWord": "Privacidad",
+        "contactLabel": "Contacto:"
+      },
+      "clariguiz": {
+        "title": "Clariguiz — Escáner de comida, beauty y pet",
+        "description": "Escanea códigos de barras y obtén una puntuación 0–100 con Nutri-Score, NOVA, MUM y SIGA. Gratis, sin cuenta. Comida, beauty y pet food.",
+        "heroTitle": "Clariguiz",
+        "heroSubtitle": "Compra con más claridad.",
+        "heroBody": "Escanea un código de barras y recibe una puntuación 0–100 basada en varios sistemas — Nutri-Score, NOVA, MUM y SIGA — para ver calidad nutricional y nivel de procesamiento, no solo una nota única.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "Qué hace",
+        "what": [
+          "Comida: ingredientes, aditivos, ultraprocesados y calidad global",
+          "Beauty e higiene: análisis INCI",
+          "Pet food: puntuación dedicada para tus animales",
+          "Perfiles: Equilibrado, Diabético, Deportivo, Clean"
+        ],
+        "whyTitle": "Por qué Clariguiz",
+        "why": [
+          "Puntuación interpolada — más fiable que un solo indicador",
+          "Detecta productos ultraprocesados",
+          "Pet food incluido",
+          "Gratis, sin cuenta, sin recopilar datos personales",
+          "Datos de Open Food / Beauty / Product Facts"
+        ],
+        "privacyLabel": "Política de privacidad"
+      },
+      "monumente": {
+        "title": "Monumente — Monumentos y museos cerca de ti",
+        "description": "Explora monumentos, museos y puntos de interés históricos a tu alrededor. Guía cultural multilingüe. Gratis.",
+        "heroTitle": "Monumente",
+        "heroSubtitle": "Descubre lo que te rodea.",
+        "heroBody": "Convierte el teléfono en un compañero cultural: encuentra monumentos, museos y puntos de interés a tu alrededor en tiempo real.",
+        "playLabel": "Google Play",
+        "appleLabel": "App Store",
+        "whatTitle": "Qué hace",
+        "what": [
+          "Monumentos, museos y puntos de interés cercanos",
+          "Descubrimiento en tiempo real mientras caminas",
+          "Para viajeros curiosos, amantes del arte y la historia",
+          "Guía cultural multilingüe"
+        ],
+        "whyTitle": "Por qué Monumente",
+        "why": [
+          "Contexto inmediato de los lugares que encuentras",
+          "Simple y gratuita",
+          "Creada por CrystalSteps Studio"
+        ],
+        "privacyLabel": "Política de privacidad"
+      }
+    }
+  }
+}

@@ -1,176 +1,95 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clariguiz - La tua spesa consapevole</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary: #10b981; /* Verde Emerald */
-            --dark: #1f2937;
-            --light: #f9fafb;
-            --text-gray: #6b7280;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Inter', sans-serif;
-        }
-
-        body {
-            background-color: var(--light);
-            color: var(--dark);
-            line-height: 1.6;
-        }
-
-        /* Navbar */
-        nav {
-            padding: 1.5rem 10%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: var(--primary);
-        }
-
-        .lang-switch button {
-            background: none;
-            border: 1px solid var(--primary);
-            color: var(--primary);
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: 0.3s;
-        }
-
-        .lang-switch button:hover {
-            background: var(--primary);
-            color: white;
-        }
-
-        /* Hero Section */
-        header {
-            padding: 5rem 10%;
-            text-align: center;
-            background: linear-gradient(180deg, white 0%, var(--light) 100%);
-        }
-
-        h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--dark);
-        }
-
-        .subtitle {
-            font-size: 1.25rem;
-            color: var(--text-gray);
-            max-width: 700px;
-            margin: 0 auto 2rem;
-        }
-
-        .cta-button {
-            background: var(--primary);
-            color: white;
-            padding: 1rem 2.5rem;
-            border-radius: 12px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            display: inline-block;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
-        }
-
-        /* Features */
-        .features {
-            padding: 5rem 10%;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2.5rem;
-        }
-
-        .card {
-            background: white;
-            padding: 2.5rem;
-            border-radius: 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-            text-align: center;
-        }
-
-        .card h3 {
-            margin: 1.5rem 0 1rem;
-            color: var(--dark);
-        }
-
-        .card p {
-            color: var(--text-gray);
-        }
-
-        /* Footer */
-        footer {
-            padding: 4rem 10%;
-            background: white;
-            text-align: center;
-            border-top: 1px solid #e5e7eb;
-        }
-
-        .footer-links {
-            margin-top: 2rem;
-        }
-
-        .footer-links a {
-            color: var(--text-gray);
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 0.9rem;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            h1 { font-size: 2.5rem; }
-            header { padding: 3rem 5%; }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clariguiz — Food, beauty &amp; pet scanner</title>
+  <meta name="description" content="Scan barcodes and get a 0–100 score based on Nutri-Score, NOVA, MUM and SIGA. Free, no account. Food, beauty and pet food.">
+  <link rel="canonical" href="https://www.crystalsteps.net/clariguiz.html">
+  <link rel="alternate" hreflang="en" href="https://www.crystalsteps.net/clariguiz.html">
+  <link rel="alternate" hreflang="it" href="https://www.crystalsteps.net/it/clariguiz.html">
+  <link rel="alternate" hreflang="fr" href="https://www.crystalsteps.net/fr/clariguiz.html">
+  <link rel="alternate" hreflang="es" href="https://www.crystalsteps.net/es/clariguiz.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.crystalsteps.net/clariguiz.html">
+  <meta property="og:title" content="Clariguiz — Food, beauty &amp; pet scanner">
+  <meta property="og:description" content="Scan barcodes and get a 0–100 score based on Nutri-Score, NOVA, MUM and SIGA. Free, no account. Food, beauty and pet food.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.crystalsteps.net/clariguiz.html">
+  <meta property="og:image" content="https://www.crystalsteps.net/assets/images/clariguiz-icon.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta name="theme-color" content="#f3efe7">
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
-<body>
-
-    <nav>
-        <div class="logo">Clariguiz</div>
-        <div class="lang-switch">
-            <button onclick="switchLang()">EN / IT</button>
+<body class="page-clariguiz">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-bar">
+      <a class="brand" href="index.html">
+        <img src="assets/images/logo.png" alt="" width="128" height="128">
+        <span>CrystalSteps</span>
+      </a>
+      <nav class="nav" aria-label="CrystalSteps">
+        <a href="clariguiz.html" aria-current="page">Clariguiz</a>
+        <a href="monumente.html">Monumente</a>
+      </nav>
+      <nav class="langs" aria-label="Language"><a href="clariguiz.html" hreflang="en" lang="en" aria-current="true">EN</a><a href="it/clariguiz.html" hreflang="it" lang="it">IT</a><a href="fr/clariguiz.html" hreflang="fr" lang="fr">FR</a><a href="es/clariguiz.html" hreflang="es" lang="es">ES</a></nav>
+    </div>
+  </header>
+  <main id="content">
+    <section class="page-intro">
+      <div class="wrap product-hero">
+        <div>
+          <img class="product-icon" src="assets/images/clariguiz-icon.jpg" alt="Clariguiz icon" width="512" height="512">
+          <h1>Clariguiz</h1>
+          <div class="rule" aria-hidden="true"></div>
+          <p class="lede">Shop with more clarity.</p>
+          <p class="body">Scan a barcode and get a 0–100 score from several systems together — Nutri-Score, NOVA, MUM and SIGA — so you see nutritional quality and processing level, not just a single grade.</p>
+          <div class="stores">
+        <a class="store" href="https://play.google.com/store/apps/details?id=com.clariguiz.app" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8.2 5.4v13.2L19 12 8.2 5.4z"/></svg>Google Play</a>
+        <a class="store" href="https://apps.apple.com/app/clariguiz/id6761573886" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="7" y="3.5" width="10" height="17" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 7.2h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>App Store</a>
+      </div>
         </div>
-    </nav>
-
-    <header>
-        <h1 id="hero-title">Fai la spesa con consapevolezza</h1>
-        <p id="hero-subtitle" class="subtitle">Scansiona i prodotti, scopri i valori nutrizionali e scegli il meglio per la tua salute con Clariguiz.</p>
-        <a href="#" class="cta-button" id="cta-text">Scarica la Beta</a>
-    </header>
-
-    <section class="features">
-        <div class="card">
-            <h3>🔍</h3>
-            <h3 id="f1-title">Scanner Smart</h3>
-            <p id="f1-desc">Punta il codice a barre e ottieni risultati istantanei sui prodotti.</p>
-        </div>
-        <div class="card">
-            <h3>🍏</h3>
-            <h3 id="f2-title">Nutri-Score</h3>
-            <p id="f2-desc">Valutazioni semplici da A ad E per capire immediatamente
+        <figure class="shot">
+          <img src="assets/images/clariguiz-screen.jpg" alt="Screenshot of Clariguiz from the App Store" width="390" height="844">
+        </figure>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">What it does</h2>
+        <ul class="points">
+          <li>Food: ingredients, additives, ultra-processed foods and overall quality</li>
+          <li>Beauty &amp; personal care: INCI analysis</li>
+          <li>Pet food: dedicated scoring for your animals</li>
+          <li>Profiles: Balanced, Diabetic, Sports, Clean</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <h2 class="section-title">Why Clariguiz</h2>
+        <ul class="why">
+          <li>Interpolated score — more reliable than one indicator alone</li>
+          <li>Detects ultra-processed products</li>
+          <li>Pet food included</li>
+          <li>Free, no account, no personal data collected</li>
+          <li>Data from Open Food / Beauty / Product Facts</li>
+        </ul>
+        <p class="privacy-jump"><a href="privacy_clariguiz.html">Privacy policy</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-line">
+      <span>© CrystalSteps Studio</span>
+      <a href="privacy_clariguiz.html">Clariguiz · Privacy</a>
+      <a href="privacy.html">Monumente · Privacy</a>
+      <a href="mailto:info@crystalsteps.net">Contact: info@crystalsteps.net</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
